@@ -11,7 +11,6 @@
 <ul>
     <li>Using other HTTP responses such as patch and delete. I had to google on my own and I learned that delete does not take an object.</li>
     <li>Moving the tasks horizontally also took a lot of time and effort and mastery of React to understand my errors and eventually getting it working</li>
-    <li>I</li>
 </ul>
 
 <h2>How to run the application</h2>
@@ -23,10 +22,9 @@
 
 <h2>API Documentation</h2>
 <p>
-    GET 'api/v1/tasks' queries the database for tasks and sends it back
-    POST 'api/v1/tasks' creates a new task on the database and saves it
-    PATCH 'api/v1/:column' Filters through the database and finds the document by its id and updates it
-    DELETE 'api/v1/:id' Finds target document by its id and deletesd it.
+    GET 'api/v1/tasks' queries the database for tasks and sends it back <br>
+    POST 'api/v1/tasks' creates a new task on the database and saves it <br>
+    PATCH 'api/v1/:column' Filters through the database and finds the document by its id and updates it <br>
+    DELETE 'api/v1/:id' Finds target document by its id and deletesd it. <br>
 
-    #NOTE REST OF DOCUMENTATION ON REPOSITORY
 </p>
