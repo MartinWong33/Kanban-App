@@ -1,0 +1,16 @@
+const express = require("express");
+const app = express();
+const bodyParser = require('body-parser');
+const connection = require('./db/connection');
+
+app.listen(process.env.PORT, ()=>console.log("Listening on 8080"));
+connection.once('open', ()=> {
+
+});
+
+app.use(express.static("public"));
+app.use(express.urlencoded({extended: true}));
+app.use(bodyParser.json());
+
+const router = require('./routes/index');
+app.use('/api', router);
